@@ -26,3 +26,6 @@ npm install knex --save
 npm install sqlite3
 npx knex init
 npm knex migrate:make create_ongs
+
+# install CORS
+npm install cors
