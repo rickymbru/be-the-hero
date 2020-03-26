@@ -1,0 +1,28 @@
+# Instalar gerenciador de pacotes
+https://nodejs.org/en/download/package-manager/
+
+	#Windows
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+
+# backend
+choco install nodejs-lts # instalar o Nodejs
+npm init -y	# Criar o package.json
+npm install express # micro framework
+node index.js # iniciar o node
+
+# frontend
+npx create-react-app frontend # Criar a base do React
+npm start # Iniciar o frontend na porta http://localhost:3000
+
+#
+https://insomnia.rest/download/ # Testar Métodos HTTP (Apenas x64)
+
+npm install nodemon -D # Instalar o servico do node apenas para DEV, não na aplicação / package.js => "start": "nodemon index.js"
+
+# http://knexjs.org/
+
+npm install knex --save
+npm install sqlite3
+npx knex init
+npm knex migrate:make create_ongs
