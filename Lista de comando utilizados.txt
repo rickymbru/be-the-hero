@@ -67,5 +67,17 @@ npm install cross-env -D
 npm install supertest -D
 npm test
 
-	#Deploy
-Heroku
+	# Deploy
+https://dashboard.heroku.com/apps			# node.js	https://www.youtube.com/watch?v=-j7vLmBMsEU
+digitalocean						# node.js	https://www.youtube.com/watch?v=ICIz5dE3Xfg
+
+https://app.netlify.com/teams/rickymbru/sites		# react		
+
+Gerando APK/IPA 		https://www.youtube.com/watch?v=wYMvzbfBdYI
+
+	# Estudos
+Padroes de código: ESlint, Prettier
+Autenticação JWT
+Styled Components
+
+
