@@ -1,0 +1,25 @@
+# Global
+cd 'C:\Users\ricky\OneDrive\Documentos\omnistack11\'
+New-Item -ItemType HardLink -Name Comandos.txt -Value 'C:\www\omnistack11\Comandos.txt'
+New-Item -ItemType HardLink -Name package-lock.json -Value 'C:\www\omnistack11\package-lock.json'
+
+# Backend
+cd 'C:\Users\ricky\OneDrive\Documentos\omnistack11\backend'
+New-Item -ItemType HardLink -Name knexfile.js -Value 'C:\www\omnistack11\backend\knexfile.js'
+New-Item -ItemType HardLink -Value 'C:\www\omnistack11\backend\package.json' -Name package.json
+New-Item -ItemType HardLink -Value 'C:\www\omnistack11\backend\package-lock.json' -Name package-lock.json
+
+# Frontend
+cd 'C:\Users\ricky\OneDrive\Documentos\omnistack11\frontend'
+New-Item -ItemType SymbolicLink -Name public -Target 'C:\www\omnistack11\frontend\public\'
+New-Item -ItemType HardLink -Value 'C:\www\omnistack11\frontend\package.json' -Name package.json
+New-Item -ItemType HardLink -Value 'C:\www\omnistack11\frontend\package-lock.json' -Name package-lock.json
+
+# Mobile
+cd 'C:\Users\ricky\OneDrive\Documentos\omnistack11\mobile'
+New-Item -ItemType SymbolicLink -Name assets -Target 'C:\www\omnistack11\mobile\assets\'
+New-Item -ItemType HardLink -Value 'C:\www\omnistack11\mobile\app.json' -Name app.json
+New-Item -ItemType HardLink -Value 'C:\www\omnistack11\mobile\App.js' -Name App.js
+New-Item -ItemType HardLink -Value 'C:\www\omnistack11\mobile\babel.config.js' -Name babel.config.js
+New-Item -ItemType HardLink -Value 'C:\www\omnistack11\mobile\package.json' -Name package.json
+New-Item -ItemType HardLink -Value 'C:\www\omnistack11\mobile\package-lock.json' -Name package-lock.json

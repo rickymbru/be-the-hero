@@ -42,3 +42,12 @@ npm install react-router-dom
 # Install cliente HTTP
 npm install axios
 
+# Mobile
+npm install -g expo-cli
+choco install yarn
+# https://reactnavigation.org/docs/getting-started
+npm install @react-navigation/native 
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack
+npm install @react-navigation/native
+expo install expo-constants
