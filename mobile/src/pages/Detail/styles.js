@@ -18,7 +18,7 @@ export default StyleSheet.create ({
     incident: {
         padding: 24,
         borderRadius: 8,
-        backgroundColor: '#FFF',
+        backgroundColor: '#ffffff',
         marginBottom: 16,
         marginTop: 48,
     },
@@ -40,7 +40,7 @@ export default StyleSheet.create ({
     contactBox: {
         padding: 24,
         borderRadius: 8,
-        backgroundColor: '#FFF',
+        backgroundColor: '#ffffff',
         marginBottom: 16,
     },
 
@@ -73,7 +73,7 @@ export default StyleSheet.create ({
     },
 
     actionText: {
-        color: '#FFF',
+        color: '#ffffff',
         fontSize: 15,
         fontWeight: 'bold',
     },

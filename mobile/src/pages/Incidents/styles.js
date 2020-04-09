@@ -44,7 +44,7 @@ export default StyleSheet.create({
         incident: {
             padding: 24,
             borderRadius: 8,
-            backgroundColor: '#FFF',
+            backgroundColor: '#ffffff',
             marginBottom: 16,
         },
 

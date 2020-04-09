@@ -15,7 +15,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#E020441"
+      "backgroundColor": "#ffffff" 
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,6 +25,10 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.rickymbru.bethehero",
+      "versionCode": 1
+    }    
   }
 }
