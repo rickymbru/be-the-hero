@@ -1,0 +1,19 @@
+version: '3'
+services: 
+    backend:
+        image: node:13.11
+        volumes: 
+            - ./backend:/backend
+        ports: 
+            - 3333:3333
+        command: bash -c "cd /backend && npm rebuild && npm install && node src/server.js"
+    frontend:
+        image: node:13.11
+        volumes: 
+            - ./frontend:/frontend
+        ports: 
+            - 3000:3000
+        command: bash -c "cd /frontend && npm rebuild && npm install && npm start"
+        stdin_open: true
+
+
