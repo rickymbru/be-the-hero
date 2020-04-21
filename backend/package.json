@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production pm2 start src/server.js --watch --no-daemon --node-args=\" -r dotenv/config\"",
+    "start": "node src/server.js" , 
+    "prod": "cross-env NODE_ENV=production pm2 start src/server.js --watch --no-daemon --node-args=\" -r dotenv/config\"",
     "dev": "cross-env NODE_ENV=development nodemon src/server.js",
     "test": "cross-env NODE_ENV=test jest"
   },
